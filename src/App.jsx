@@ -9,6 +9,8 @@ import UserRegisterPageWOImage from './components/Homepage/UserRegisterPageWOIma
 import StartUpRegistrationPage from './components/Homepage/StartUpRegistrationPage';
 import StartUpLandingPage from './components/Homepage/StartUpLandingPage';
 import UserLandingPage from './components/Homepage/UserLandingPage';
+import UserLoginPage from './components/Homepage/UserLoginPage';
+import StartUpLoginPage from './components/Homepage/StartUpLoginPage';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/start-up-registration" element={<StartUpRegistrationPage />} />
           <Route path="/start-up-landing-page" element={<StartUpLandingPage />} />
           <Route path="/user-landing-page" element={<UserLandingPage />} />
+          <Route path="/user-log-in-page" element={<UserLoginPage />} />
+          <Route path="/start-up-log-in-page" element={<StartUpLoginPage />} />
          
           
 

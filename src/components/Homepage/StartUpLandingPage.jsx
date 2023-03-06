@@ -78,6 +78,13 @@ const InputFieldsStyleDetails = ({
   left: `169px`,
   top: `262px`,
 });
+const InputFieldsStylePitch = ({
+  width: `527px`,
+  height: `250px`,
+  position: `absolute`,
+  left: `755px`,
+  top: `202px`,
+});
 
 // const InputFields2 = styled(InputFields)(({ theme }) => ({
 //   width: `327px`,
@@ -176,8 +183,9 @@ function StartUpLandingPage(props) {
       {/* <InputFields1 />
       <InputFields2 />
       <InputFields3 /> */}
-      <input type="email" style={InputFieldsStyleName}/>
-      <input type="email" style={InputFieldsStyleDetails}/>
+      <input type="text" style={InputFieldsStyleName}/>
+      <input type="text" style={InputFieldsStyleDetails}/>
+      <input type="text" style={InputFieldsStylePitch}/>
       <PitchDescription>
         {`Pitch/Description: 
 `}
